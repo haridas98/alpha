@@ -1,0 +1,131 @@
+/*** Navbar ***/
+.navbar {
+  font-family: "Inter",sans-serif;
+  margin: 1rem 1rem 0 1rem;
+  background: white;
+  .dropdown-divider{
+    width: 100%;
+  }
+
+  h2{
+    padding: 2px;
+    margin: 0;
+  }
+  a:active{
+    color: var(--primary)
+  }
+
+ .socials{
+
+   a{
+     padding: 0 0.25vw;
+     color: #f64e51;
+     transition: transform 0.7s ease;
+   }
+   a:hover{
+     color: var(--primary);
+
+     transition: transform 0.7s ease;
+   }
+ }
+
+
+}
+.hide {
+  transform: translateY(-150%);
+  transition: transform 0.7s ease;
+}
+.show {
+  transform: translateY(0);
+  transition: transform 0.7s ease;
+}
+
+.navbar .dropdown-toggle::after {
+  border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navba-collapse{
+  border-radius: 0 0 1.25rem 1.25rem;
+
+}
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: rgba(0,0,0,0);
+
+}
+
+.navbar-light{
+  .navbar-toggler-icon{
+    color: red
+  }
+}
+
+
+
+.dropdown-toggle{
+  color: transparent;
+}
+
+  .dropdown-menu{
+    transition: 0.3s;
+    border: none;
+    border-radius: 0.3rem!important;
+    box-shadow: 0 0.075rem 0.075rem rgba(0,0,0,0.025) !important;
+    a:active{
+      background-color: var(--light);
+    }
+
+  }
+
+  @media (min-width: 1200px) {
+    .navbar{
+      margin: 1rem 8vw 0 8vw;
+    }
+  }
+@media (min-width: 992px) {
+  .dropdown-divider{
+    display: none;
+
+  }
+}
+@media (max-width: 991px) {
+    .nav-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: 0.3s;
+    }
+
+  }
+  @media (max-width: 590px) {
+    .navbar{
+      width: 90vw;
+      margin: 1rem 5vw 0 5vw;
+    }
+  }
+
+
+

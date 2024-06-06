@@ -1,0 +1,239 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Анна В.П.",
+      "img": "../../img/reviews/review-1.jpg",
+      "role": "Экспертиза квартиры",
+      "comment": "Купила квартиру два года назад, двери некоторые свисали, не знала куда обратиться, и мне посоветовали Альфа Право. Не ожидала, что сотрудники Альфа Право на столько серьёзно подойдут к своему делу, более того, выявили ещё множество дефектов в моей квартире. Удалось получить с зайстройщика 750 тысяч рублей"
+    },
+    {
+      "name": "Гузель Н.А.",
+      "img": "../../img/reviews/review-2.jpg",
+      "role": "Банкротство",
+      "comment": "С выходом на пенсию стало сложно платить кредит банку, моей пенсии не хватало, чтобы отдавать деньги банку и жить на оставшиеся средства. Благо, что мне посоветовали обратиться в Альфа Право, ребята меня с самой первой встречи грамотно проконсультировали, и после этого приняла решение, что воспользуюсь их услугой, чем осталось очень довольна! Теперь моя жизнь заиграла новыми красками!"
+    },
+    {
+      "name": "Тимур А.В.",
+      "img": "../../img/reviews/review-3.jpg",
+      "role": "Экспертиза квартиры",
+      "comment":"Спустя долгие годы работы на заводе мы наконец-то купили новую квартиру, но радость длилась не долго. В новой квартире мы обнаружили множество царапины на стеклопакетах, неровные стены. Благодаря Альфа Праву мне удалось взыскать компенсацию с застройщика, на эти деньги я решил вопрос по ремонту своей квартиры."
+    },
+    {
+      "name": "Андрей П.А.",
+      "img": "../../img/reviews/review-4.jpg",
+      "role": "Компенсация за ДТП",
+      "comment":"В моей жизни случилось несчастье - ДТП с участием моих близких. К сожалению, когда такое происходит, нет времени разбирательства со страховкой, ведь главное - здоровье моих родственников, к счастью, мне порекомендовали Альфа Право, и всеми юридическими вопросами по взысканию компенсации за ДТП занимались они. Работу они выполнили грамотно и качественно."
+    },
+    {
+      "name": "Людмила К.А.",
+      "img": "../../img/reviews/review-5.jpg",
+      "role": "Экспертиза квартиры",
+      "comment": "Купили долгожданную квартиру в хорошем районе Уфы, потратили большое количество денег, и мы ожидали соответствующее качество от застройщика. Окна были кривыми, и это было видно невооружённым глазом. Мне помогли в Альфа Право. Спустя небольшое время я получил денежную компенсацию от застройщика."
+    }
+  ],
+
+  "whyUs": [
+    {
+      "title": "Квалифицированные специалисты",
+      "description": "В нашем штате 12 опытных специалистов, которые досконально знают все необходимые строительные нормативы, нюансы банкротства",
+      "img": "../../img/service/hands.svg",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Оперативный выезд к клиенту",
+      "description": "Благодаря внушительному штату квалифицированных сотрудников, мы можем оказать услугу клиенту в день обращения",
+      "img": "../../img/service/distance.svg",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Полный комплекс услуг",
+      "description": "Мы оказываем весь комплекс необходимых услуг за 1 визит нашего специалиста. Вы будете очень довольны и приятно удивлены нашей работой",
+      "img": "../../img/service/docs.svg",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Профессиональный подход",
+      "description": "Наши специалисты используют только профессиональных подход к своему делу. Имеют необходимые лицензии и сертификаты в сфере своей работы в оказании услуг клиенту.",
+      "img": "../../img/service/hands.svg",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Юридическое сопровождение",
+      "description": "При проведении приёмки квартиры в новостройке мы оказываем полное юридическое сопровождение вплоть до взыскания денежных средств с застройщика.",
+      "img": "../../img/service/lawyer.svg",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Работаем без выходных 24/7",
+      "description": "\n\n7 дней в неделю для Вашего удобства. Без доплат за выезды в субботу и воскресенье. Поддерживаем связь с клиентом 24/7",
+      "img": "../../img/service/24h.svg",
+      "readMore": "#",
+      "applyNow": "#quote"
+    }
+  ],
+
+    "jobsBenefits": [
+      {
+        "title": "No Forced Dispatch",
+        "description": "Either you are an Owner-Operator or a Company driver, the dispatcher will call you and offer a load and it's up to you to decide whether you want to go for it or not. It's important to us that you take your time, analyze all the details of the load and then give an answer with full responsibility.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      },
+      {
+        "title": "No Hidden Fees",
+        "description": "We have a list of all the fees possible that we are showing on the face-to-face interview. Nothing except that will ever come out of your paycheck.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      },
+      {
+        "title": "Monthly Bonuses",
+        "description": "We do have monthly awards for the drivers that performed great during the month. If you work hard and don't get violations during a specified period, you are likely to get into the top five drivers of the month and get your bonus added to the following paycheck.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      },
+      {
+        "title": "Absolute Transparency",
+        "description": "One of the main principles of the company is honesty. This is what we hear very often from our drivers when asking them for some feedback. You will get all the rate confirmations forwarded directly from the broker along with the broker's name, phone number and the rate of the load.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      },
+      {
+        "title": "Personal Dispatcher",
+        "description": "Once you sign up with a company, you will fill out a questionnaire which will determine your drive style. According to preferences, you will be assigned a dispatcher who specializes in the type of loads you are looking for. However, after a trial period you can request to try another dispatcher and it will be totally normal. It's in our interest to have you guys working with a person that you are comfortable dealing with.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      },
+      {
+        "title": "Weekly Deposit",
+        "description": "We make deposits every week. You can also reach our accounting and get the amount of upcoming pay-check and find out which loads will be paid. You will also receive a report every week via email with a detailed breakdown of all loads completed and deductions that occurred during the period.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Our dispatch is not only capable of answering calls and making updates, they are well-trained and able to solve all uncommon situations and make proper decisions.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      },
+      {
+        "title": "Layover and Detention Pay",
+        "description": "In our company dispatch is working hard and fighting with a broker for every penny of your extra wait time at the pick up or delivery facilities.",
+        "img": "../../img/carousel-",
+        "readMore": "#",
+        "applyNow": "#quote"
+      }
+
+  ],
+  "jobDescription":[
+    {
+      "url": "bfl",
+      "title": "Банкротство физлиц",
+      "imgSlider": "../../img/job/carousel-",
+      "description": "Федеральный закон «О несостоятельности (банкротстве)» от 26.10.2002 N 127-ФЗ Предусматривает официальное и законное списание всех долгов по кредитам и микрозаймам. После завершения дела банк, МФО и коллекторы не смогут заново начать процедуру взыскания. Даже если гражданин устроится на работу, у него появится имущество и деньги на счетах.",
+      "readMore": "/job/0",
+      "applyNow": "#quote",
+      "img": [
+        "../../img/job/solo/job-1.jpg",
+        "../../img/job/solo/job-2.jpg",
+        "../../img/job/solo/job-3.jpg"
+      ],
+
+      "serviceDetails": [
+        "Без вашего присутствия в суде",
+        "Бесплатный сбор документов",
+        "Без скрытых платежей",
+        "Гарантия лучшей цены",
+        "Подробная отчётность",
+        "Индивидуальный подход к каждому клиенту",
+        "Полная конфиденциальность",
+        "Юридическая поддержка на всех этапах",
+        "Персонализированные рекомендации"
+      ],
+      "requirements": [
+        "21 years old and over",
+        "Decent MVR (no more than 3 moving violations in the past 36 months)",
+        "Hometown within 100 miles radius from Alpharetta, GA",
+        "6 months minimum truck driving experience",
+        "Decent level of communication",
+        "Smartphone and Scanner app"
+      ]
+    },
+    {
+      "url": "flats",
+      "title": "Экспертиза квартир",
+      "imgSlider": "../../img/job/carousel-",
+      "description": "ПОМОЩЬ В ПРИЕМКЕ КВАРТИР В НОВОСТРОЙКАХ: Выявление строительных нарушений. Замер площади. Оценка квартир для ипотеки. Строительная экспертиза. Юридическая помощь.",
+      "readMore": "/job/1",
+      "applyNow": "#quote",
+      "img": [
+        "../../img/job/team/job-1.jpg",
+        "../../img/job/team/job-2.jpg",
+        "../../img/job/team/job-3.jpg"
+      ],
+
+      "serviceDetails": [
+        "Квалифицированные специалисты",
+        "Профессиональное оборудование",
+        "Оперативный выезд",
+        "Юридическое сопровождение",
+        "Полный комплекс услуг",
+        "Работаем без выходных"
+      ],
+      "requirements": [
+        "21 years old and over",
+        "Decent MVR (no more than 3 moving violations in the past 36 months)",
+        "6 months minimum truck driving experience",
+        "Decent level of communication",
+        "Smartphone and Scanner app"
+      ]
+    },
+    {
+      "url": "dtp",
+      "title": "Компенсация ДТП",
+      "imgSlider": "../../img/job/carousel-",
+      "description": "Пострадавший в дорожно-транспортном происшествии водитель, пассажир, а также пешеход на законодательном уровне имеют право на возмещение вреда здоровью, причиненного транспортным средством, являвшимся источником повышенной опасности на момент ДТП.",
+      "readMore": "/job/2",
+      "applyNow": "#quote",
+      "img": [
+        "../../img/job/owner/job-1.jpg",
+        "../../img/job/owner/job-2.jpg",
+        "../../img/job/owner/job-3.jpg"
+      ],
+      "serviceDetails": [
+        "Связь 24/7",
+        "Квалифицированные специалисты",
+        "Оперативный выезд",
+        "Юридическое сопровождение",
+        "Полный комплекс услуг",
+        "Работаем без выходных"
+      ],
+      "requirements": [
+        "At least 21 years old",
+        "Clean MVR (no more than 3 moving violations in the past 36 months)",
+        "Safely transport the merchandise under FMCSA regulations",
+        "No felony convictions within 7 years (no NYC)",
+        "2 years experience is a must (insurance company requirements)"
+      ]
+    }
+  ]
+
+
+}
+
+
+
+
+
