@@ -13,11 +13,11 @@ const QuoteForm = () => {
 
     // Установка значения purpose в зависимости от значения в URL
     if (urlValue === 0) {
-      setPurpose("Solo");
+      setPurpose("BFL");
     } else if (urlValue === 1) {
-      setPurpose("Team");
+      setPurpose("Flats");
     } else if (urlValue === 2) {
-      setPurpose("Owner");
+      setPurpose("DTP");
     }
   }, [location.pathname]);
 
@@ -36,7 +36,7 @@ const QuoteForm = () => {
     var purpose = document.getElementById("purpose").value;
 
     if (purpose === "") {
-      purpose = "Solo";
+      purpose = "BFL";
     }
 
     // Создаем объект с данными формы
@@ -87,7 +87,7 @@ const QuoteForm = () => {
                 name="name"
                 required=""
                 className="form-control border-0"
-                placeholder="Your Name"
+                placeholder="Ваше Имя"
                 style={{ height: 55 }}
               />
             </div>
@@ -98,7 +98,7 @@ const QuoteForm = () => {
                 name="email"
                 required=""
                 className="form-control border-0"
-                placeholder="Your Email"
+                placeholder="Ваша почта"
                 style={{ height: 55 }}
               />
             </div>
@@ -109,7 +109,7 @@ const QuoteForm = () => {
                 name="phone"
                 required=""
                 className="form-control border-0"
-                placeholder="Your Mobile"
+                placeholder="Телефон"
                 style={{ height: 55 }}
               />
             </div>
@@ -122,9 +122,9 @@ const QuoteForm = () => {
                 value={purpose}
                 onChange={(e) => setPurpose(e.target.value)}
               >
-                <option value="Solo">SOLO Truck Driver </option>
-                <option value="Team">TEAM Truck Driving</option>
-                <option value="Owner">Owner Operators</option>
+                <option value="BFL">Банкротство физлиц</option>
+                <option value="Flats">Экспертиза квартир</option>
+                <option value="DTP">Компенсации ДТП</option>
               </select>
             </div>
             <div className="col-12">
@@ -132,14 +132,14 @@ const QuoteForm = () => {
                 id="message"
                 name="message"
                 className="form-control border-0"
-                placeholder="Special Note"
+                placeholder="Описание"
                 defaultValue={""}
               />
             </div>
           </div>
           <div className="col-12">
             <button className="btn btn-primary w-100 py-3" type="submit">
-              Submit
+              Отправить
             </button>
           </div>
         </form>
@@ -150,7 +150,7 @@ const QuoteForm = () => {
         data-wow-delay="0.5s"
         style={{ display: "none" }}
       >
-        <h1 className="">Thank you for your submission!</h1>
+        <h1 className="">Спасибо за заявку, мы с вами свяжемся!</h1>
       </div>
     </>
   );

@@ -26,9 +26,9 @@ const Home = () => {
       <Slider />
       <About />
       <Services />
-      <Feature />
-      <Working />
-      <Owner />
+      {/*<Feature />*/}
+      {/*<Working />*/}
+      {/*<Owner />*/}
       <Reviews />
       <Advantages />
       <Quote />

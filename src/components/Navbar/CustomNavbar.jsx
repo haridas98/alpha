@@ -136,15 +136,15 @@ const CustomNavbar = () => {
               <div className="socials d-flex justify-content-center align-items-center ">
                 <div className="" style={{ fontSize: "1.5rem" }}>
                   <a
-                    href="tel:+14044340075"
+                    href="tel:+79270888841"
                     className="fa-solid  fa-phone-volume mx-1"
                   />{" "}
                   <a
-                    href="https://api.whatsapp.com/send/?phone=14044340075&text&type=phone_number&app_absent=0"
+                    href="https://api.whatsapp.com/send/?phone=79270888841&text&type=phone_number&app_absent=0"
                     className="fa-brands fa-whatsapp mx-1"
                   />{" "}
                   <a
-                    href="https://api.whatsapp.com/send/?phone=14044340075&text&type=phone_number&app_absent=0"
+                    href="https://t.me/Alex_Rogozhin"
                     className="fa-brands fa-telegram mx-1"
                   />{" "}
                 </div>

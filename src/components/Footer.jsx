@@ -13,28 +13,28 @@ const Footer = () => {
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-light mb-4">Contacts</h4>
+              <h4 className="text-light mb-4">Контакты</h4>
               {/*                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>*/}
               <p className="mb-2">
                 <i className="fa fa-phone-alt me-3" />
-                <Link to="tel:+14044340075">+1 404 4340075</Link>
+                <Link to="tel:+79270888841">+7 927 088 8841</Link>
               </p>
               <p className="mb-2">
                 <i className="fa fa-envelope me-3" />
-                HermesExpressGA@gmail.com
+                uslugi@alphapravo.ru
               </p>
               <div className="d-flex pt-2">
                 <Link className="btn btn-outline-light btn-social" to="#">
-                  <i className="fab fa-twitter" />
+                  <i className="fab fa-instagram" />
                 </Link>
                 <Link className="btn btn-outline-light btn-social" to="#">
-                  <i className="fab fa-facebook-f" />
+                  <i className="fab fa-vk" />
                 </Link>
                 <Link className="btn btn-outline-light btn-social" to="#">
                   <i className="fab fa-youtube" />
                 </Link>
                 <Link className="btn btn-outline-light btn-social" to="#">
-                  <i className="fab fa-linkedin-in" />
+                  <i className="fab fa-square-odnoklassniki" />
                 </Link>
               </div>
             </div>
@@ -47,31 +47,31 @@ const Footer = () => {
             {/*                    <Link class="btn btn-link" to="#">Industry solutions</a>*/}
             {/*                </div>*/}
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-light mb-4">Quick Links</h4>
+              <h4 className="text-light mb-4">Альфа Право</h4>
               <Link className="btn btn-link" to="/">
-                Home
+                Главная
               </Link>
               <Link className="btn btn-link" to="/about">
-                About Us
+                О нас
+              </Link>
+              <Link className="btn btn-link" to="/#advantages">
+                Преимущества
               </Link>
               <Link className="btn btn-link" to="/#price">
-                Pricing Plan
-              </Link>
-              <Link className="btn btn-link" to="/#price">
-                Working
+                Наши услуги
               </Link>
               <Link className="btn btn-link" to="/job/0">
-                Solo
+                Банкротство
               </Link>
               <Link className="btn btn-link" to="/job/1">
-                Team
+                Экспертиза квартир
               </Link>
               <Link className="btn btn-link" to="/job/2">
-                Owner
+                Компенсации ДТП
               </Link>
 
               <Link className="btn btn-link" to="/#quote">
-                Contact Us
+                Контакты
               </Link>
             </div>
             {/*                <div class="col-lg-3 col-md-6">*/}
@@ -90,9 +90,9 @@ const Footer = () => {
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 ©{" "}
                 <Link className="border-bottom" to="#">
-                  Hermes Express
+                  Альфа Право
                 </Link>
-                , All Right Reserved.
+                , Все права зарегистрированы 2024
               </div>
               <div className="col-md-6 text-center text-md-end">
                 Designed By{" "}

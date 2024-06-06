@@ -29,12 +29,12 @@ function JobDetailsPage() {
                     <li key={index}>{detail}</li>
                   ))}
                 </ul>
-                <h4>Requirements:</h4>
-                <ul>
-                  {job.requirements.map((requirement, index) => (
-                    <li key={index}>{requirement}</li>
-                  ))}
-                </ul>
+                {/*<h4>Requirements:</h4>*/}
+                {/*<ul>*/}
+                {/*  {job.requirements.map((requirement, index) => (*/}
+                {/*    <li key={index}>{requirement}</li>*/}
+                {/*  ))}*/}
+                {/*</ul>*/}
               </div>
               <div>
                 <Link
